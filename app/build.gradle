@@ -17,6 +17,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
@@ -32,5 +37,11 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
+    //Dependency for circular image
     implementation 'com.mikhaellopez:circularimageview:4.2.0'
+
+    // dependency for listing recycle view
+    implementation 'androidx.recyclerview:recyclerview:1.2.0-alpha06'
+
+
 }

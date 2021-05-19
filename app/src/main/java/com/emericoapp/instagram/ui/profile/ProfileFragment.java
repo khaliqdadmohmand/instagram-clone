@@ -39,19 +39,19 @@ public class ProfileFragment extends Fragment {
 
         CircularImageView circularImageView = view.findViewById(R.id.circularImageView);
 // Set Color
-        circularImageView.setCircleColor(Color.WHITE);
+//        circularImageView.setCircleColor(Color.BLACK);
 // or with gradient
-        circularImageView.setCircleColorStart(Color.BLACK);
-        circularImageView.setCircleColorEnd(Color.RED);
-        circularImageView.setCircleColorDirection(CircularImageView.GradientDirection.TOP_TO_BOTTOM);
+//        circularImageView.setCircleColorStart(Color.BLACK);
+//        circularImageView.setCircleColorEnd(Color.RED);
+//        circularImageView.setCircleColorDirection(CircularImageView.GradientDirection.TOP_TO_BOTTOM);
 
 // Set Border
         circularImageView.setBorderWidth(10f);
-        circularImageView.setBorderColor(Color.BLACK);
+        circularImageView.setBorderColor(Color.WHITE);
 // or with gradient
-        circularImageView.setBorderColorStart(Color.BLACK);
-        circularImageView.setBorderColorEnd(Color.RED);
-        circularImageView.setBorderColorDirection(CircularImageView.GradientDirection.TOP_TO_BOTTOM);
+//        circularImageView.setBorderColorStart(Color.BLACK);
+//        circularImageView.setBorderColorEnd(Color.RED);
+//        circularImageView.setBorderColorDirection(CircularImageView.GradientDirection.TOP_TO_BOTTOM);
 
 // Add Shadow with default param
         circularImageView.setShadowEnable(true);
